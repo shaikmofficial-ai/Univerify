@@ -246,11 +246,13 @@ for label, col in chips:
         align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
     cx += w + Inches(0.2)
 
-rect(s, Inches(0.9), Inches(6.05), Inches(4.2), Pt(2), ACCENT_BLUE)
-txt(s, Inches(0.9), Inches(6.2), Inches(11.5), Inches(0.9),
-    [{"text": "Presented by:  Shaik M.", "size": 14, "color": TEXT_WHITE, "bold": True},
+rect(s, Inches(0.9), Inches(5.95), Inches(4.2), Pt(2), ACCENT_BLUE)
+txt(s, Inches(0.9), Inches(6.1), Inches(11.5), Inches(1.2),
+    [{"text": "Presented by:", "size": 13, "color": ACCENT_BLUE, "bold": True, "space_after": 2},
+     {"text": "Shaik Abdulla M  (231061101493)  \u2022  CSE", "size": 14, "color": TEXT_WHITE, "bold": True},
+     {"text": "Narendra Reddy  (231061101489)  \u2022  CSE", "size": 14, "color": TEXT_WHITE, "bold": True, "space_after": 3},
      {"text": "Department of Computer Science & Engineering  |  Final Project Review",
-      "size": 12, "color": TEXT_GREY, "space_before": 2}])
+      "size": 11.5, "color": TEXT_GREY}])
 
 # ============================================================================
 # SLIDE 2 — AGENDA / OUTLINE
